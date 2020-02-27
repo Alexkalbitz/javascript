@@ -1,5 +1,7 @@
 /*
+    ********************************
     var
+    ********************************
 */
 
 var variable;
@@ -51,7 +53,9 @@ function hoistingExample(input) {
 // console.log(hoistingExample(4));
 
 /*
+    ********************************
     let
+    ********************************
 */
 
 // 1. Unlike var, let is not hoisted, so its only available inside the block where it has been created
@@ -84,7 +88,9 @@ function letExample2(input) {
 // console.log(letExample2(4));
 
 /*
+    ********************************
     const
+    ********************************
 */
 
 // 1. Same as let, but cannot be reassigned
@@ -97,7 +103,6 @@ function constExample() {
     } catch(err) {
         console.log(err);
       // expected output: TypeError: invalid assignment to const `number'
-      // Note - error messages will vary depending on browser
     }
     
     return number;
