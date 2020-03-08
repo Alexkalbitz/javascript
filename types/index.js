@@ -15,6 +15,10 @@
     Exercise 12: Convert a number to a string representation (e.g. 4 to "4")
 */
 
+const str = 'Hello World';
+
+
+
 console.log('----------- STRINGS -----------\n\n\n');
 
 /*
