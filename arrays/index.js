@@ -10,6 +10,8 @@ const arr_simple = [
     "42"
 ]
 
+console.log(arr_simple.filter(item => item.includes('e')).length);
+
 const arr_mixed = [
     "Hello",
     "My name is John Doe",
@@ -19,10 +21,19 @@ const arr_mixed = [
     ["dont count this one"]
 ]
 
+console.log(arr_mixed.filter(item => typeof item === 'string' && item.includes('e')).length);
+
 
 /*
     Create an array with the numbers [1..10] by using a for loop
 */
+
+const arrWithNumbers = [];
+for (let i = 1; i <= 10; i++) {
+    arrWithNumbers.push(i);
+}
+
+console.log(arrWithNumbers);
 
 
 
@@ -41,5 +52,7 @@ const arr_words = [
     "lazy",
     "dog"
 ];
+
+console.log(arr_words.map(word => word.length));
 
 // [1, 5, 5, ...]
