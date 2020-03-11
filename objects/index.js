@@ -42,6 +42,8 @@ user.email = null;
 
 // console.log(fun.fun.toString());
 
+// this keyword
+
 const person = {
     firstname: 'John',
     lastname: 'Doe',

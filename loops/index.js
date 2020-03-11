@@ -27,6 +27,4 @@
         while(...) {
             while(...)
         }
-
-    Exercise 5: Exercise 4 using a single while loop
 */

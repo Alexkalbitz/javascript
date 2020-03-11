@@ -14,12 +14,20 @@
     Exercise 11: Remove the white spaces before and after the text (e.g. "       Hello world        ", print "Hello world")
     Exercise 12: Convert a number to a string representation (e.g. 4 to "4")
 */
-
-const str = 'Hello World';
-
-
-
 console.log('----------- STRINGS -----------\n\n\n');
+
+console.log('Hello world');
+console.log('Hello'.concat(' World'));
+console.log('Hello' + ' ' + 'World');
+console.log('Hello'.length);
+console.log('Hello world'.charAt(5));
+console.log('Hello world'.replace('world', 'universe'));
+console.log('Hello world'.toLowerCase());
+console.log('Hello world'.toUpperCase());
+console.log('Hello world        '.trimEnd());
+console.log('      Hello world'.trimStart());
+console.log('      Hello world      '.trim());
+console.log((4).toString());
 
 /*
     Numbers
@@ -35,7 +43,13 @@ console.log('----------- STRINGS -----------\n\n\n');
 */
 
 console.log('----------- NUMBERS -----------\n\n\n');
-
+console.log(4);
+console.log(1 + 2);
+console.log(4 * 2);
+console.log(4 / 2);
+console.log(parseInt("4"));
+console.log(parseFloat("4.4"));
+console.log(123.456.toFixed(2));
 /*
     Booleans
 
