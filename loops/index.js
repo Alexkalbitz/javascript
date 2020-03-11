@@ -28,3 +28,33 @@
             while(...)
         }
 */
+
+for (let n = 0; n <= 5; n++) {
+    console.log(n);
+}
+
+for (let i = 0; i <= 2; i++) {
+    for (let j = 0; j <= 2; j++) {
+        console.log(`row ${i} column ${j}: ${i + j}`);
+    }
+}
+
+console.log('------------\n\n\n');
+
+let n = 0
+while (n <= 5) {
+    console.log(n);
+    n++;
+}
+
+console.log('------------\n\n\n');
+
+let i = 0;
+while (i <= 2) {
+    let j = 0;
+    while (j <= 2) {
+        console.log(`row ${i} column ${j}: ${i + j}`);
+        j++;
+    }
+    i++;
+}
