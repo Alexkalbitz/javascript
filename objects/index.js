@@ -41,3 +41,21 @@ user.email = null;
 // fun.fun();
 
 // console.log(fun.fun.toString());
+
+const person = {
+    firstname: 'John',
+    lastname: 'Doe',
+    pets: ['Sparkles', 'Bobz'],
+    fullName: function fullName() {
+        return firstname + ' ' + lastname;
+    },
+    showPets: function showPets() {
+        this.pets.forEach(function(pet) {
+            console.log(fullName() + ' owns ' + pet);
+        });
+    }
+};
+
+// Remove comments and fix the person code
+// console.log(person.fullName());
+// console.log(person.showPets());
